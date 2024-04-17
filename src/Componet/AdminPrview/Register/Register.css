@@ -1,0 +1,23 @@
+.from_{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.from-container {
+    width: 70%;
+    max-width: 35rem;
+    background-color: var(--main-bg);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Inter", "sans-serif";
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+}
