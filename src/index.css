@@ -8,7 +8,7 @@
   --font-familiy: "Inter", "sans-serif";
   --font-weight: 700;
 
-  --primary-btn-bg: 0 16px;
+  --primary-btn-bg:#1a80e5 ;
   --primary-btn-padding: 0 16px;
   --secondry-btn-bg: #f0f2f5;
   --text-fade: #637587;
@@ -111,6 +111,11 @@ img {
 
 .--align-center {
   display: flex;
+  align-items: center;
+}
+.--flex-center {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
