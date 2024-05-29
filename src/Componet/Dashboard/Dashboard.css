@@ -1,0 +1,135 @@
+.left {
+    padding: 16px;
+    width: 307px;
+    max-width: 300px;
+    height: 760px;
+    background-color: #fff;
+}
+
+.left >div {
+    padding: 8px 12px;
+    margin: 8px;
+
+}
+
+.left >div >a{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    width: var(--full-width);
+    padding: 8px 12px;
+
+}
+
+.active-link{
+  background-color: #f0f2f5;
+  border-radius: 12px;  
+}
+
+.rigth{
+    width: 921px;
+    padding: 16px;
+
+}
+.rigth p:nth-child(1){
+    width: var(--full-width);
+    color: #121417;
+    font-family:var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+
+.left p:nth-child(2){
+  color: #121417;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 12px 0px;
+  line-height: 24px;  
+}
+
+.search{
+    width: var(--full-width);
+    max-width: 300px;
+    border-radius: 12px;
+    background: #f0f2f5;
+    padding: 16px;
+    font-size: 16px;
+    margin: 12px 0;
+}
+.search::placeholder{
+    width: var(--full-width);
+    color: #637587;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 24px;
+
+}
+
+.table {
+    padding: 5px;
+    width: var(--full-width);
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid #e5e8eb;
+    background: #fff;
+  }
+  
+  .table_wrapper {
+    border-collapse: collapse;
+    width: var(--full-width);
+    font-size: 1.4rem;
+  }
+  
+  .table_head {
+    border-bottom: 1px solid #e5e8eb;
+    font-size: 14px;
+  }
+  
+   .same_class {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table__row {
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+  }
+    
+  .table__row:last-child {
+    border-bottom: unset;
+  }
+  
+  .table__body .table__row > td:not(:first-child) {
+    color: #637587;
+  }
+    
+  .table__row:nth-child(even) {
+    background-color: #fff;
+  }
+  .table__body > tr:hover {
+    cursor: pointer;
+  }
+  
+  .right button {
+    margin-top: 1.2em;
+    width: 300px;
+    height: 40px;
+    padding: 0px 16px;
+    color: #121417;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.21px;
+  }
+  
+  
+  ._noBg {
+    background: transparent;
+  }
+  
+  

@@ -43,7 +43,7 @@ const AdminReg = () => {
                 required />
             </div>
             <button className='--btn'>Create an account</button>
-            <p>Already have an account? <Link to="/login">Login</Link>{" "}</p>
+            <p>Already have an account? <Link to="/login">Login</Link> ||  <Link to="/homedash">Go Home</Link></p>
         </form>
      </div>
     </div>
